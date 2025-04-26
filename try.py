@@ -1,0 +1,5 @@
+feeling = input("My feelings for you...")
+n = feeling.split()
+nf = len(n)
+mymsg = "".join([chr(int(b, 2)) for b in n ])
+print("My feelings for you",mymsg)
